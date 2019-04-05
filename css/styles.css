@@ -195,6 +195,42 @@ polygon {
 
 }
 
+.catalog-nav {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.catalog-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
+  list-style: none;
+}
+
+.catalog-item {
+  width: 98%;
+  margin: 5px 5px;
+  padding: 0;
+}
+
+.catalog-item a {
+  display: block;
+  margin: 0;
+  padding: 12px 21px;
+
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #627530;
+  border-top: 1px solid #886e5b;
+  border-bottom: 1px solid #71543f;
+}
 
 @media (max-width: 767px) {
   .main-nav__closed .menu-item {
@@ -241,4 +277,16 @@ polygon {
     margin-top: 5px;
     margin-left: -15px;
   }
+  
+  .catalog-nav {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .catalog-item {
+  width: 39%;
+  margin: 5px 5px;
+  padding: 0;
+}
 }
